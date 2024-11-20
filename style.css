@@ -29,7 +29,7 @@ body {
     background: rgba(0, 0, 0, 0.7);
     border-radius: 20px;
     padding: 50px 40px;
-    width: 100%;
+    margin: auto;    
     max-width: 1200px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
 }
@@ -42,22 +42,17 @@ h1 {
 
 .counter-num-case{
     display: flex;
+    gap: 25px;
 }
 
 .counter {
     font-size: 10rem;
     font-weight: 900;
     color: #f8f8f8;
-    margin-bottom: 20px;
-    letter-spacing: 4px;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     border: 4px solid #fff;
     padding: 20px;
-    display: inline-block;
     border-radius: 10px;
     box-sizing: border-box;
-    width: 90%; /* Ajuste la largeur du compteur */
-    max-width: 800px; /* Limite la largeur maximale */
     text-align: center;
     transition: all 0.3s ease;
 }
